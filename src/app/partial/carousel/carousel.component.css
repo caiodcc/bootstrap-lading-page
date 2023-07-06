@@ -1,0 +1,36 @@
+
+.container-fluid {
+    width: 100vh !important;
+}
+.card {
+    opacity: 0.6;
+    transition: opacity 0.7s, transform 0.3s;
+}
+
+.card img {
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 1;
+}
+
+.card:hover{
+    opacity: 1;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    cursor: pointer;
+}
+:host {
+   margin-top: 10vh;
+   margin-bottom: 10vh;
+}
+@media only screen and (max-width: 600px) {
+    .container-fluid {
+        flex-direction: column !important;
+        gap: 10px;
+        justify-content: center !important;
+        margin: 0 0 0 0
+    }
+    .card{
+        width: 25%;
+        height: 25%;
+    }
+
+  }

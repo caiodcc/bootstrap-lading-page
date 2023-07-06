@@ -1,0 +1,30 @@
+.fullheight {
+    min-height: 100vh;
+    max-height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+  }
+  :host{
+    width: 100% !important;
+  }
+label{
+    font-weight: bold;
+}
+h2 {
+    border-bottom: 3px solid black;
+    padding: 1rem;
+}
+input {
+    height: 6vh;
+}
+button {
+
+    height: 6vh;
+    width: 20vw;
+    font-size: 1.7rem;
+}
+.col-md-6{ 
+    background-color: var(--main-bg-color) !important;
+}
+
